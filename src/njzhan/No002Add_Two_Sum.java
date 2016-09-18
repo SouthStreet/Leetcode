@@ -23,6 +23,8 @@ public class No002Add_Two_Sum {
 	    	ListNode result = null, pNext = null, pNode = null;
 	        ListNode p = l1;
 	        ListNode q = l2;
+	        
+	        //ssss
 	    	while(p!= null && q != null){
 	    		//新建一个next节点 计算相关数据
 	    		pNext = new ListNode(p.val + q.val + AddUp);
